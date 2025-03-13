@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device image="Ibiza LSM 1200 Pro.png" type="DMXDevice" dmxaddresscount="1" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>LSM 1200 Pro</model>
+    <vendor>Ibiza</vendor>
+    <author>Florian Gericke</author>
+  </information>
+  <functions>
+    <fog dmxchannel="0">
+      <range val="true" mindmx="0" maxdmx="255" />
+    </fog>
+  </functions>
+  <procedures />
+</device>

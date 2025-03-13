@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device image="IMG-000713.png" type="DMXDevice" dmxaddresscount="12" dmxcversion="3.2.2" ddfversion="1.0.0">
+  <information>
+    <ddf-library-id>2007</ddf-library-id>
+    <model>LED TMH-S30</model>
+    <vendor>Eurolite</vendor>
+    <author>Steffen Senf</author>
+    <mode>12 Channel</mode>
+    <comment>MH-Spot mit Gobo Shake, Gobo Rotation, Color Wheel</comment>
+  </information>
+  <functions>
+    <position>
+      <pan dmxchannel="0" finedmxchannel="1">
+        <range range="540"/>
+      </pan>
+      <tilt dmxchannel="2" finedmxchannel="3">
+        <range range="180"/>
+      </tilt>
+    </position>
+    <ptspeed dmxchannel="4">
+      <range type="linear" mindmx="255" maxdmx="0" minval="0" maxval="100"/>
+    </ptspeed>
+    <colorwheel dmxchannel="5">
+      <step type="color" val="#FFFFFF" mindmx="0" maxdmx="4" caption="White"/>
+      <step type="color" val="#FF7E7E" mindmx="5" maxdmx="9" caption="White/Red"/>
+      <step type="color" val="#FF0000" mindmx="10" maxdmx="14" caption="Red"/>
+      <step type="color" val="#fdff83" mindmx="15" maxdmx="19" caption="Red/Green"/>
+      <step type="color" val="#00FF00" mindmx="20" maxdmx="24" caption="Green"/>
+      <step type="color" val="#49fcff" mindmx="25" maxdmx="29" caption="Green/Blue"/>
+      <step type="color" val="#0000FF" mindmx="30" maxdmx="34" caption="BLue"/>
+      <step type="color" val="#c3ffd5" mindmx="35" maxdmx="39" caption="Blue/Yellow"/>
+      <step type="color" val="#FFFF00" mindmx="40" maxdmx="44" caption="Yellow"/>
+      <step type="color" val="#f6ffe8" mindmx="45" maxdmx="49" caption="Yellow/Cyan"/>
+      <step type="color" val="#00FFFF" mindmx="50" maxdmx="54" caption="Cyan"/>
+      <step type="color" val="#fdeeff" mindmx="55" maxdmx="59" caption="Cyan/Orange"/>
+      <step type="color" val="#FF7F00" mindmx="60" maxdmx="64" caption="Orange"/>
+      <step type="color" val="#ff989c" mindmx="65" maxdmx="69" caption="Orange/Magenta"/>
+      <step type="color" val="#FF00FF" mindmx="70" maxdmx="74" caption="Magenta"/>
+      <step type="color" val="#DD6B98" mindmx="75" maxdmx="79" caption="Magenta/White"/>
+      <wheelrotation>
+        <step type="stop" mindmx="167" maxdmx="169"/>
+        <range type="ccw" mindmx="166" maxdmx="80" minval="0.1" maxval="8"/>
+        <range type="cw" mindmx="170" maxdmx="255" minval="0.1" maxval="8"/>
+      </wheelrotation>
+    </colorwheel>
+    <gobowheel dmxchannel="6">
+      <goborotation dmxchannel="7">
+        <step type="stop" mindmx="0" maxdmx="4"/>
+        <range type="cw" mindmx="5" maxdmx="126" minval="0.1" maxval="8"/>
+        <step type="stop" mindmx="127" maxdmx="129"/>
+        <range type="ccw" mindmx="130" maxdmx="255" minval="0.1" maxval="8"/>
+      </goborotation>
+      <wheelrotation>
+        <step type="stop" mindmx="202" maxdmx="202"/>
+        <range type="ccw" mindmx="201" maxdmx="150" minval="0.1" maxval="3"/>
+        <range type="cw" mindmx="203" maxdmx="255" minval="0.1" maxval="3"/>
+      </wheelrotation>
+      <goboshake/>
+      <step type="open" mindmx="0" maxdmx="9" caption="Open"/>
+      <step type="gobo" mindmx="10" maxdmx="19" caption="Gobo 1" val="ICON-000891.png">
+        <range handler="goboshake" mindmx="80" maxdmx="89" minval="0.1" maxval="3"/>
+      </step>
+      <step type="gobo" mindmx="20" maxdmx="29" caption="Gobo 2" val="ICON-001191.png">
+        <range handler="goboshake" mindmx="90" maxdmx="99" minval="0.1" maxval="3"/>
+      </step>
+      <step type="gobo" mindmx="30" maxdmx="39" caption="Gobo 3" val="ICON-001189.png">
+        <range handler="goboshake" mindmx="100" maxdmx="109" minval="0.1" maxval="3"/>
+      </step>
+      <step type="gobo" mindmx="40" maxdmx="49" caption="Gobo 4" val="ICON-001110.png">
+        <range handler="goboshake" mindmx="110" maxdmx="119" minval="0.1" maxval="3"/>
+      </step>
+      <step type="gobo" mindmx="50" maxdmx="59" caption="Gobo 5" val="ICON-001341.png">
+        <range handler="goboshake" mindmx="120" maxdmx="129" minval="0.1" maxval="3"/>
+      </step>
+      <step type="gobo" mindmx="60" maxdmx="69" caption="Gobo 6" val="ICON-000813.png">
+        <range handler="goboshake" mindmx="130" maxdmx="139" minval="0.1" maxval="3"/>
+      </step>
+      <step type="gobo" mindmx="70" maxdmx="79" caption="Gobo 7" val="ICON-001339.png">
+        <range handler="goboshake" mindmx="140" maxdmx="149" minval="0.1" maxval="3"/>
+      </step>
+    </gobowheel>
+    <strobe dmxchannel="8">
+      <step type="open" mindmx="0" maxdmx="9"/>
+      <range type="linear" mindmx="10" maxdmx="249" minval="0.5" maxval="15"/>
+      <step type="open" mindmx="250" maxdmx="255"/>
+    </strobe>
+    <dimmer dmxchannel="9">
+      <range type="linear" mindmx="0" maxdmx="255"/>
+    </dimmer>
+    <rawranges dmxchannel="10" name="Internal program, sound control">
+      <step type="Off" mindmx="0" maxdmx="59"/>
+      <range type="internal program" mindmx="60" maxdmx="159" minval="0" maxval="100"/>
+      <range type="sound control" mindmx="160" maxdmx="255" minval="0" maxval="100"/>
+    </rawranges>
+    <!-- Für den folgenden Effekt den PAN-/TILT-Startpunkt verändern, ungleich 0/0, und die PTSPEED auf 20-50% reduzieren. -->
+    <rawranges dmxchannel="11" name="Special functions">
+      <step type="Off" mindmx="0" maxdmx="20"/>
+      <range type="PAN movement" mindmx="21" maxdmx="100" minval="0" maxval="100"/>
+      <range type="TILT movement" mindmx="101" maxdmx="200" minval="0" maxval="100"/>
+      <range type="PAN-/TILT movement" mindmx="201" maxdmx="249" minval="0" maxval="100"/>
+    </rawranges>
+  </functions>
+  <procedures>
+    <procedure name="Stop">
+      <set dmxchannel="11" value="0"/>
+    </procedure>
+    <reset>
+      <set dmxchannel="11" value="250"/>
+      <hold value="6000"/>
+      <restore dmxchannel="11"/>
+    </reset>
+  </procedures>
+</device>

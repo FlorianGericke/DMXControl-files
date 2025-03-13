@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device image="IMG-000400.png" type="DMXDevice" dmxaddresscount="4" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <ddf-library-id>1816</ddf-library-id>
+    <model>Revo 4</model>
+    <vendor>ADJ</vendor>
+    <author>Florian Gericke</author>
+    <mode>4 Channel</mode>
+  </information>
+  <functions>
+    <rawstep dmxchannel="0" name="Mode">
+      <step caption="OFF" mindmx="0" maxdmx="9" />
+      <step caption="Pattern" mindmx="10" maxdmx="99" />
+      <step caption="Sound Active" mindmx="240" maxdmx="255" />
+    </rawstep>
+    <rawstep dmxchannel="1" name="Pattern">
+      <step caption="Line H" mindmx="0" maxdmx="20" />
+      <step caption="Paralel Line H" mindmx="21" maxdmx="41" />
+      <step caption="Cross" mindmx="42" maxdmx="65" />
+      <step caption="Square" mindmx="66" maxdmx="87" />
+      <step caption="Rectangle" mindmx="88" maxdmx="108" />
+      <step caption="Square H-Divider" mindmx="109" maxdmx="129" />
+      <step caption="4 Squares" mindmx="130" maxdmx="150" />
+      <step caption="Line V" mindmx="151" maxdmx="172" />
+      <step caption="Paralel Line V" mindmx="173" maxdmx="193" />
+      <step caption="Tic Tac Toe" mindmx="194" maxdmx="214" />
+      <step caption="S Line" mindmx="215" maxdmx="235" />
+      <step caption="E Line" mindmx="236" maxdmx="255" />
+    </rawstep>
+	<colorwheel dmxchannel="2">
+	  <step type="color" val="#ff0000" mindmx="0" maxdmx="17" caption="Red" />
+	  <step type="color" val="#00ff00" mindmx="18" maxdmx="34" caption="Green" />
+	  <step type="color" val="#0000ff" mindmx="35" maxdmx="51" caption="Blue" />
+	  <step type="color" val="#ffffff" mindmx="52" maxdmx="68" caption="White" />
+	  <step type="color" val="#fffc00" mindmx="69" maxdmx="85" caption="Yellow" />
+	  <step type="color" val="#ff008f" mindmx="86" maxdmx="102" caption="Magenta" />
+	  <step type="color" val="#ff8888" mindmx="103" maxdmx="119" caption="Red White" />
+	  <step type="color" val="#00fffc" mindmx="120" maxdmx="136" caption="Cyan" />
+	  <step type="color" val="#88ff88" mindmx="137" maxdmx="153" caption="Green White" />
+	  <step type="color" val="#8888ff" mindmx="154" maxdmx="170" caption="Blue White" />
+	  <step type="color" val="#bbbbbb" mindmx="171" maxdmx="187" caption="Red Green Blue" />
+	  <step type="color" val="#fffc88" mindmx="188" maxdmx="204" caption="Red Green White" />
+	  <step type="color" val="#ff888f" mindmx="205" maxdmx="221" caption="Red Blue White" />
+	  <step type="color" val="#88fffc" mindmx="222" maxdmx="238" caption="Green Blue White" />
+	  <step type="color" val="#dddddd" mindmx="239" maxdmx="255" caption="Red Green Blue White" />
+	</colorwheel>
+    <raw dmxchannel="3" name="Strobe Man">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+  </functions>
+  <procedures />
+</device>

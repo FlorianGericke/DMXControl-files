@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="DMXDevice" image="zq02341.PNG" dmxaddresscount="12" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <ddf-library-id>2236</ddf-library-id>
+    <model>ZQ02341</model>
+    <vendor>U'King</vendor>
+    <author>Florian Gericke</author>
+    <comment>Moving Head Beam</comment>
+    <mode>12CH</mode>
+  </information>
+  <functions>
+    <position>
+      <pan dmxchannel="0" finedmxchannel="1">
+        <range range="540" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+      </pan>
+      <tilt dmxchannel="2" finedmxchannel="3">
+        <range range="180" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+      </tilt>
+    </position>
+    <ptspeed dmxchannel="4">
+      <range type="linear" mindmx="255" maxdmx="0" minval="0" maxval="100" />
+    </ptspeed>
+    <dimmer dmxchannel="5">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+	 <raw dmxchannel="6" name="Strob Man">
+      <range type="linear" mindmx="15" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+    <colorwheel dmxchannel="7">
+      <step type="color" val="#ffffff" mindmx="0" maxdmx="9" caption="White" />
+      <step type="color" val="#ff0000" mindmx="10" maxdmx="19" caption="Red" />
+      <step type="color" val="#fffc00" mindmx="20" maxdmx="29" caption="Yellow" />
+      <step type="color" val="#0000ff" mindmx="30" maxdmx="39" caption="Blue" />
+      <step type="color" val="#00ff00" mindmx="40" maxdmx="49" caption="Green" />
+      <step type="color" val="#ff7e00" mindmx="50" maxdmx="59" caption="Orange" />
+      <step type="color" val="#ff008f" mindmx="60" maxdmx="69" caption="Magenta" />
+      <step type="color" val="#00fffc" mindmx="70" maxdmx="79" caption="Cyan" />
+      <step type="color" val="#DD87FF" mindmx="80" maxdmx="89" caption="Cyan-Magenta" />
+      <step type="color" val="#FF9EC4" mindmx="90" maxdmx="99" caption="Magenta-Orange" />
+      <step type="color" val="#FFEBA3" mindmx="100" maxdmx="109" caption="Orange-Green" />
+      <step type="color" val="#96FFBC" mindmx="110" maxdmx="119" caption="Green-Blue" />
+      <step type="color" val="#C4DFFF" mindmx="120" maxdmx="129" caption="Blue-Yellow" />
+      <step type="color" val="#FFBC99" mindmx="130" maxdmx="139" caption="Yellow-Red" />
+      <wheelrotation>
+        <range type="cw" mindmx="140" maxdmx="197" minval="1" maxval="100" />
+        <range type="ccw" mindmx="198" maxdmx="255" minval="1" maxval="100" />
+      </wheelrotation>
+    </colorwheel>
+    <gobowheel dmxchannel="8">
+		<goboshake />
+      <step type="open" mindmx="0" maxdmx="7" caption="open" />
+      <step type="gobo" mindmx="10" maxdmx="19"  caption="open-narrow">
+		<step handler="goboshake" type="stop" mindmx="10" maxdmx="19" />
+        <range handler="goboshake" mindmx="140" maxdmx="149" minval="0.1" maxval="1" />
+      </step>
+      <step type="gobo" mindmx="20" maxdmx="29"  caption="squares">
+	  <step handler="goboshake" type="stop" mindmx="20" maxdmx="29" />
+        <range handler="goboshake" mindmx="130" maxdmx="139" minval="0.1" maxval="1" />
+      </step>
+      <step type="gobo" mindmx="30" maxdmx="39"  caption="star">
+	  <step handler="goboshake" type="stop" mindmx="30" maxdmx="39" />
+        <range handler="goboshake" mindmx="120" maxdmx="129" minval="0.1" maxval="1" />
+      </step>
+      <step type="gobo" mindmx="40" maxdmx="49"  caption="flower narrow">
+	  <step handler="goboshake" type="stop" mindmx="40" maxdmx="49" />
+        <range handler="goboshake" mindmx="110" maxdmx="119" minval="0.1" maxval="1" />
+      </step>
+      <step type="gobo" mindmx="50" maxdmx="59"  caption="cros">
+	  <step handler="goboshake" type="stop" mindmx="50" maxdmx="59" />
+        <range handler="goboshake" mindmx="100" maxdmx="109" minval="0.1" maxval="1" />
+      </step>
+      <step type="gobo" mindmx="60" maxdmx="69" caption="circle 3 divides">
+	  <step handler="goboshake" type="stop" mindmx="60" maxdmx="69" />
+        <range handler="goboshake" mindmx="90" maxdmx="99" minval="0.1" maxval="1" />
+      </step>
+      <step type="gobo" mindmx="70" maxdmx="79" caption="flower wide">
+	  <step handler="goboshake" type="stop" mindmx="70" maxdmx="79" />
+        <range handler="goboshake" mindmx="80" maxdmx="89" minval="0.1" maxval="1" />
+      </step>
+      <wheelrotation>
+        <range type="cw" mindmx="160" maxdmx="207" minval="0.1" maxval="1" />
+		<range type="ccw" mindmx="208" maxdmx="255" minval="0.1" maxval="1" />
+      </wheelrotation>
+    </gobowheel>
+    <prism dmxchannel="9">
+      	<step type="open" mindmx="0" maxdmx="8" caption="Off" />
+      	<step type="prism" mindmx="9" maxdmx="255" caption="On"/>
+        <prismrotation>
+           <step type="stop" mindmx="9" maxdmx="127" />
+           <range type="cw"  mindmx="128" maxdmx="255" minval="0.1" maxval="1" />
+        </prismrotation>
+    </prism>
+    <rawstep dmxchannel="10" name="Auto Mode">
+      <step caption="No function" mindmx="0" maxdmx="50" />
+      <step caption="Fast Self Moving" mindmx="51" maxdmx="100" />
+      <step caption="Slow Self Moving" mindmx="101" maxdmx="200" />
+      <step caption="Sound2Light" mindmx="201" maxdmx="255" />
+    </rawstep>
+    <rawstep dmxchannel="11" name="Mode Reset">
+      <step caption="Normal Operation" mindmx="0" maxdmx="249" />
+      <step caption="Reset 3 sek duration" mindmx="250" maxdmx="255" />
+    </rawstep>
+  </functions>
+  <procedures />
+</device>

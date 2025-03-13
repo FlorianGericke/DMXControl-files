@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device image="IMG-000370.png" type="DMXDevice" dmxaddresscount="8" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <ddf-library-id>2093</ddf-library-id>
+    <model>LED Pot 12x1W RGBW</model>
+    <vendor>Fun Generation</vendor>
+    <author>Florian Gericke</author>
+    <mode>8 Kanalmodus</mode>
+  </information>
+  <functions>
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <rgb>
+      <red dmxchannel="1" />
+      <green dmxchannel="2" />
+      <blue dmxchannel="3" />
+    </rgb>
+    <raw dmxchannel="4" name="White">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+	<rawstep dmxchannel="5" name="Mode">
+      <step caption="Manual" mindmx="0" maxdmx="0" />
+      <step caption="Sound Active" mindmx="238" maxdmx="255" />
+    </rawstep>
+	<raw dmxchannel="6" name="S2L Sensibility">
+       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+    <raw dmxchannel="7" name="Strobe Man">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+  </functions>
+  <procedures />
+</device>
