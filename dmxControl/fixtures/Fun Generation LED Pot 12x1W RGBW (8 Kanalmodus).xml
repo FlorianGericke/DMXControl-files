@@ -15,8 +15,10 @@
       <red dmxchannel="1"/>
       <green dmxchannel="2"/>
       <blue dmxchannel="3"/>
-      <white dmxchannel="4"/>
     </rgb>
+    <raw dmxchannel="4" name="White">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="1" />
+    </raw>
     <rawranges dmxchannel="5" name="Farbmakros">
       <range type="Off" mindmx="0" maxdmx="0" minval="0" maxval="100"/>
       <range type="Colorfade" mindmx="1" maxdmx="7" minval="0" maxval="100"/>
