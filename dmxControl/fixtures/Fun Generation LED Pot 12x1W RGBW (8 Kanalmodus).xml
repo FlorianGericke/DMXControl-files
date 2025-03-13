@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device image="IMG-000370.png" type="DMXDevice" dmxaddresscount="8" dmxcversion="3.0.0" ddfversion="1.0.0">
+  <information>
+    <ddf-library-id>2093</ddf-library-id>
+    <model>LED Pot 12x1W RGBW</model>
+    <vendor>Fun Generation</vendor>
+    <author>Erik Kucklick</author>
+    <mode>8 Kanalmodus</mode>
+  </information>
+  <functions>
+    <dimmer dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100"/>
+    </dimmer>
+    <rgb>
+      <red dmxchannel="1"/>
+      <green dmxchannel="2"/>
+      <blue dmxchannel="3"/>
+      <white dmxchannel="4"/>
+    </rgb>
+    <rawranges dmxchannel="5" name="Farbmakros">
+      <range type="Off" mindmx="0" maxdmx="0" minval="0" maxval="100"/>
+      <range type="Colorfade" mindmx="1" maxdmx="7" minval="0" maxval="100"/>
+      <range type="Show 1" mindmx="8" maxdmx="39" minval="0" maxval="100"/>
+      <range type="Show 2" mindmx="40" maxdmx="72" minval="0" maxval="100"/>
+      <range type="Show 3" mindmx="73" maxdmx="105" minval="0" maxval="100"/>
+      <range type="Show 4" mindmx="106" maxdmx="138" minval="0" maxval="100"/>
+      <range type="Show 5" mindmx="139" maxdmx="140" minval="0" maxval="100"/>
+      <range type="MusikShow 1" mindmx="141" maxdmx="167" minval="0" maxval="100"/>
+      <range type="MusikShow 2" mindmx="168" maxdmx="195" minval="0" maxval="100"/>
+      <range type="MusikShow 3" mindmx="196" maxdmx="223" minval="0" maxval="100"/>
+      <range type="MusikShow 4" mindmx="224" maxdmx="251" minval="0" maxval="100"/>
+      <range type="MusikShow 5" mindmx="252" maxdmx="255" minval="0" maxval="100"/>
+    </rawranges>
+    <rawranges dmxchannel="6" name="Farbmakros 2">
+      <range type="Off" mindmx="0" maxdmx="0" minval="0" maxval="100"/>
+      <range type="Colorfade" mindmx="1" maxdmx="7" minval="0" maxval="100"/>
+      <range type="Show 1" mindmx="8" maxdmx="39" minval="0" maxval="100"/>
+      <range type="Show 2" mindmx="40" maxdmx="72" minval="0" maxval="100"/>
+      <range type="Show 3" mindmx="73" maxdmx="105" minval="0" maxval="100"/>
+      <range type="Show 4" mindmx="106" maxdmx="138" minval="0" maxval="100"/>
+      <range type="Show 5" mindmx="139" maxdmx="140" minval="0" maxval="100"/>
+      <range type="MusikShow 1" mindmx="141" maxdmx="167" minval="0" maxval="100"/>
+      <range type="MusikShow 2" mindmx="168" maxdmx="195" minval="0" maxval="100"/>
+      <range type="MusikShow 3" mindmx="196" maxdmx="223" minval="0" maxval="100"/>
+      <range type="MusikShow 4" mindmx="224" maxdmx="251" minval="0" maxval="100"/>
+      <range type="MusikShow 5" mindmx="252" maxdmx="255" minval="0" maxval="100"/>
+    </rawranges>
+    <strobe dmxchannel="7">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="20"/>
+    </strobe>
+  </functions>
+</device>
