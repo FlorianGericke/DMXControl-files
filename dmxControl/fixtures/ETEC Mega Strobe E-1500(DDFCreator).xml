@@ -6,9 +6,12 @@
     <author>Florian Gericke</author>
   </information>
   <functions>
-    <raw dmxchannel="0" name="Speed">
+    <raw dmxchannel="0" name="Strobe Man">
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
     </raw>
+    <strobe dmxchannel="0">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="20"/>
+    </strobe>
     <dimmer dmxchannel="1">
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
     </dimmer>

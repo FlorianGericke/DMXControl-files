@@ -45,6 +45,9 @@
       <range type="MusikShow 4" mindmx="224" maxdmx="251" minval="0" maxval="100"/>
       <range type="MusikShow 5" mindmx="252" maxdmx="255" minval="0" maxval="100"/>
     </rawranges>
+	<raw dmxchannel="7" name="Strobe Man">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
     <strobe dmxchannel="7">
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="20"/>
     </strobe>
