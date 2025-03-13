@@ -23,9 +23,13 @@
     <dimmer dmxchannel="5">
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
     </dimmer>
-	 <raw dmxchannel="6" name="Strob Man">
+	<raw dmxchannel="6" name="Strob Man">
       <range type="linear" mindmx="15" maxdmx="255" minval="0" maxval="100" />
     </raw>
+	<strobe dmxchannel="6">
+		<step type="open" mindmx="0" maxdmx="15" />
+		<range type="linear" mindmx="16" maxdmx="255" minval="1" maxval="12" />
+	</strobe>
     <colorwheel dmxchannel="7">
       <step type="color" val="#ffffff" mindmx="0" maxdmx="9" caption="White" />
       <step type="color" val="#ff0000" mindmx="10" maxdmx="19" caption="Red" />
