@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MidiSettings>
+  <RuleSet Name="APC mini mk2">
+    <Rule Name="0,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134413313" EnabledBacktrack="0" DisableMessage="3702785" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,0 F" UseBacktrack="true" SliderMessage="3706881" MinimumBacktrack="3708417" MaximumBacktrack="2134414849">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,0 P" UseBacktrack="true" SliderMessage="3706881" MinimumBacktrack="3709185" MaximumBacktrack="2134415617">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,0 S" UseBacktrack="true" SliderMessage="3706881" MinimumBacktrack="3710209" MaximumBacktrack="2134416641">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134478849" EnabledBacktrack="0" DisableMessage="3768321" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,0 F" UseBacktrack="true" SliderMessage="3772417" MinimumBacktrack="3773953" MaximumBacktrack="2134480385">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,0 P" UseBacktrack="true" SliderMessage="3772417" MinimumBacktrack="3774721" MaximumBacktrack="2134481153">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,0 S" UseBacktrack="true" SliderMessage="3772417" MinimumBacktrack="3775745" MaximumBacktrack="2134482177">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134544385" EnabledBacktrack="2134544385" DisableMessage="3833857" DisabledBacktrack="3833857">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,0 F" UseBacktrack="true" SliderMessage="3837953" MinimumBacktrack="3839489" MaximumBacktrack="2134545921">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,0 P" UseBacktrack="true" SliderMessage="3837953" MinimumBacktrack="3840257" MaximumBacktrack="2134546689">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,0 S" UseBacktrack="true" SliderMessage="3837953" MinimumBacktrack="3841281" MaximumBacktrack="2134547713">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134609921" EnabledBacktrack="2134609921" DisableMessage="3899393" DisabledBacktrack="3899393">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,0 F" UseBacktrack="true" SliderMessage="3903489" MinimumBacktrack="3905025" MaximumBacktrack="2134611457">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,0 S" UseBacktrack="true" SliderMessage="3903489" MinimumBacktrack="3906817" MaximumBacktrack="2134613249">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134675457" EnabledBacktrack="2134675457" DisableMessage="3964929" DisabledBacktrack="3964929">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,0 F" UseBacktrack="true" SliderMessage="3969025" MinimumBacktrack="3970561" MaximumBacktrack="2134676993">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,0 P" UseBacktrack="true" SliderMessage="3969025" MinimumBacktrack="3971329" MaximumBacktrack="2134677761">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,0 S" UseBacktrack="true" SliderMessage="3969025" MinimumBacktrack="3969025" MaximumBacktrack="2134675457">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,0 P" UseBacktrack="true" SliderMessage="3903489" MinimumBacktrack="3905793" MaximumBacktrack="2134612225">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134740993" EnabledBacktrack="0" DisableMessage="4030465" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,0 F" UseBacktrack="true" SliderMessage="4034561" MinimumBacktrack="4036097" MaximumBacktrack="2134742529">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,0 P" UseBacktrack="true" SliderMessage="4034561" MinimumBacktrack="4036865" MaximumBacktrack="2134743297">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,0 S" UseBacktrack="true" SliderMessage="4034561" MinimumBacktrack="4037889" MaximumBacktrack="2134744321">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134806529" EnabledBacktrack="2134806529" DisableMessage="4096001" DisabledBacktrack="4096001">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,0 F" UseBacktrack="true" SliderMessage="4100097" MinimumBacktrack="4101633" MaximumBacktrack="2134808065">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,0 P" UseBacktrack="true" SliderMessage="4100097" MinimumBacktrack="4102401" MaximumBacktrack="2134808833">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,0 S" UseBacktrack="true" SliderMessage="4100097" MinimumBacktrack="4103425" MaximumBacktrack="2134809857">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,0 B" UseBacktrack="false" Threshold="126" IsToggle="true" EnableMessage="2134872065" EnabledBacktrack="2134872065" DisableMessage="4161537" DisabledBacktrack="4161537">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,0 F" UseBacktrack="true" SliderMessage="4165633" MinimumBacktrack="4167169" MaximumBacktrack="2134873601">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,0 P" UseBacktrack="true" SliderMessage="4165633" MinimumBacktrack="4167937" MaximumBacktrack="2134874369">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,0 S" UseBacktrack="true" SliderMessage="4165633" MinimumBacktrack="4168961" MaximumBacktrack="2134875393">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133889025" EnabledBacktrack="2133889025" DisableMessage="3178497" DisabledBacktrack="3178497">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,1 F" UseBacktrack="true" SliderMessage="3182593" MinimumBacktrack="3184129" MaximumBacktrack="2133890561">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,1 P" UseBacktrack="true" SliderMessage="3182593" MinimumBacktrack="3184897" MaximumBacktrack="2133891329">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,1 S" UseBacktrack="true" SliderMessage="3182593" MinimumBacktrack="3186177" MaximumBacktrack="2133892609">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133954561" EnabledBacktrack="0" DisableMessage="3244033" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,1 F" UseBacktrack="true" SliderMessage="3248129" MinimumBacktrack="3249665" MaximumBacktrack="2133956097">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,1 P" UseBacktrack="true" SliderMessage="3248129" MinimumBacktrack="3250433" MaximumBacktrack="2133956865">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,1 S" UseBacktrack="true" SliderMessage="3248129" MinimumBacktrack="3251457" MaximumBacktrack="2133957889">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2134020097" EnabledBacktrack="0" DisableMessage="3309569" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,1 F" UseBacktrack="true" SliderMessage="3313665" MinimumBacktrack="3315201" MaximumBacktrack="2134021633">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,1 P" UseBacktrack="true" SliderMessage="3313665" MinimumBacktrack="3315969" MaximumBacktrack="2134022401">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,1 S" UseBacktrack="true" SliderMessage="3313665" MinimumBacktrack="3316993" MaximumBacktrack="2134023425">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2134085633" EnabledBacktrack="0" DisableMessage="3375105" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,1 F" UseBacktrack="true" SliderMessage="3379201" MinimumBacktrack="3380737" MaximumBacktrack="2134087169">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,1 P" UseBacktrack="true" SliderMessage="3379201" MinimumBacktrack="3381505" MaximumBacktrack="2134087937">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,1 S" UseBacktrack="true" SliderMessage="3379201" MinimumBacktrack="3382529" MaximumBacktrack="2134088961">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2134151169" EnabledBacktrack="0" DisableMessage="3440641" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,1 F" UseBacktrack="true" SliderMessage="3444737" MinimumBacktrack="3446273" MaximumBacktrack="2134152705">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,1 P" UseBacktrack="true" SliderMessage="3444737" MinimumBacktrack="3447041" MaximumBacktrack="2134153473">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,1 S" UseBacktrack="true" SliderMessage="3444737" MinimumBacktrack="3448065" MaximumBacktrack="-1657499647">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2134216705" EnabledBacktrack="0" DisableMessage="3506177" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,1 F" UseBacktrack="true" SliderMessage="3510273" MinimumBacktrack="3511809" MaximumBacktrack="2134218241">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,1 P" UseBacktrack="true" SliderMessage="3510273" MinimumBacktrack="3512577" MaximumBacktrack="2134219009">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,1 S" UseBacktrack="true" SliderMessage="3510273" MinimumBacktrack="3513601" MaximumBacktrack="2134220033">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2134282241" EnabledBacktrack="0" DisableMessage="3571713" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,1 F" UseBacktrack="true" SliderMessage="3575809" MinimumBacktrack="3577345" MaximumBacktrack="2134283777">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,1 P" UseBacktrack="true" SliderMessage="3575809" MinimumBacktrack="3578113" MaximumBacktrack="2134284545">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,1 S" UseBacktrack="true" SliderMessage="3575809" MinimumBacktrack="3579137" MaximumBacktrack="2134285569">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,1 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2134347777" EnabledBacktrack="0" DisableMessage="3637249" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,1 F" UseBacktrack="true" SliderMessage="3641345" MinimumBacktrack="3642881" MaximumBacktrack="2134349313">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,1 P" UseBacktrack="true" SliderMessage="3641345" MinimumBacktrack="3643649" MaximumBacktrack="2134350081">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,1 S" UseBacktrack="true" SliderMessage="3641345" MinimumBacktrack="3644673" MaximumBacktrack="2134351105">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133364737" EnabledBacktrack="0" DisableMessage="2654209" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,2 F" UseBacktrack="true" SliderMessage="2658305" MinimumBacktrack="2659841" MaximumBacktrack="2133366273">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,2 P" UseBacktrack="true" SliderMessage="2658305" MinimumBacktrack="2660609" MaximumBacktrack="2133367041">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,2 S" UseBacktrack="true" SliderMessage="2658305" MinimumBacktrack="2661633" MaximumBacktrack="2133368065">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133430273" EnabledBacktrack="0" DisableMessage="2719745" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,2 F" UseBacktrack="true" SliderMessage="2723841" MinimumBacktrack="2725377" MaximumBacktrack="2133431809">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,2 P" UseBacktrack="true" SliderMessage="2723841" MinimumBacktrack="2726145" MaximumBacktrack="2133432577">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,2 S" UseBacktrack="true" SliderMessage="2723841" MinimumBacktrack="2727169" MaximumBacktrack="2133433601">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133561345" EnabledBacktrack="0" DisableMessage="2850817" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,2 F" UseBacktrack="true" SliderMessage="2854913" MinimumBacktrack="2856449" MaximumBacktrack="2133562881">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,2 P" UseBacktrack="true" SliderMessage="2854913" MinimumBacktrack="2857217" MaximumBacktrack="2133563649">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,2 S" UseBacktrack="true" SliderMessage="2854913" MinimumBacktrack="2858241" MaximumBacktrack="2133564673">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133561345" EnabledBacktrack="0" DisableMessage="2850817" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,2 F" UseBacktrack="true" SliderMessage="2854913" MinimumBacktrack="2856449" MaximumBacktrack="2133562881">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,2 P" UseBacktrack="true" SliderMessage="2854913" MinimumBacktrack="2857217" MaximumBacktrack="2133563649">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,2 S" UseBacktrack="true" SliderMessage="2854913" MinimumBacktrack="2858241" MaximumBacktrack="2133564673">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133626881" EnabledBacktrack="0" DisableMessage="2916353" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,2 F" UseBacktrack="true" SliderMessage="2920449" MinimumBacktrack="2921985" MaximumBacktrack="2133628417">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,2 P" UseBacktrack="true" SliderMessage="2920449" MinimumBacktrack="2922753" MaximumBacktrack="2133629185">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,2 S" UseBacktrack="true" SliderMessage="2920449" MinimumBacktrack="2923777" MaximumBacktrack="2133630209">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133692417" EnabledBacktrack="0" DisableMessage="2981889" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,2 F" UseBacktrack="true" SliderMessage="2985985" MinimumBacktrack="2987521" MaximumBacktrack="2133693953">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,2 P" UseBacktrack="true" SliderMessage="2985985" MinimumBacktrack="2988289" MaximumBacktrack="2133694721">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,2 S" UseBacktrack="true" SliderMessage="2985985" MinimumBacktrack="2989313" MaximumBacktrack="2133695745">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,2 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133757953" EnabledBacktrack="0" DisableMessage="3047425" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,2 F" UseBacktrack="true" SliderMessage="3051521" MinimumBacktrack="3053057" MaximumBacktrack="2133759489">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,2 P" UseBacktrack="true" SliderMessage="3051521" MinimumBacktrack="3053825" MaximumBacktrack="2133760257">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,2 S" UseBacktrack="true" SliderMessage="3051521" MinimumBacktrack="3054849" MaximumBacktrack="2133761281">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,2 B" UseBacktrack="true" Threshold="126" IsToggle="false" EnableMessage="2133823489" EnabledBacktrack="2133823489" DisableMessage="3112961" DisabledBacktrack="3112961">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,2 F" UseBacktrack="true" SliderMessage="3117057" MinimumBacktrack="3118593" MaximumBacktrack="2133825025">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,2 P" UseBacktrack="true" SliderMessage="3117057" MinimumBacktrack="3119361" MaximumBacktrack="2133825793">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,2 S" UseBacktrack="true" SliderMessage="3117057" MinimumBacktrack="3120385" MaximumBacktrack="2133826817">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132840449" EnabledBacktrack="0" DisableMessage="2129921" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,3 F" UseBacktrack="true" SliderMessage="2134017" MinimumBacktrack="2135553" MaximumBacktrack="2132841985">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,3 P" UseBacktrack="true" SliderMessage="2134017" MinimumBacktrack="2136321" MaximumBacktrack="2132842753">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,3 S" UseBacktrack="true" SliderMessage="2134017" MinimumBacktrack="2137345" MaximumBacktrack="2132843777">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132905985" EnabledBacktrack="0" DisableMessage="2195457" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,3 F" UseBacktrack="true" SliderMessage="2199553" MinimumBacktrack="2201089" MaximumBacktrack="2132907521">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,3 P" UseBacktrack="true" SliderMessage="2199553" MinimumBacktrack="2201857" MaximumBacktrack="2132908289">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,3 S" UseBacktrack="true" SliderMessage="2199553" MinimumBacktrack="2202881" MaximumBacktrack="2132909313">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132971521" EnabledBacktrack="2132840449" DisableMessage="2260993" DisabledBacktrack="2129921">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,3 F" UseBacktrack="true" SliderMessage="2265089" MinimumBacktrack="2266625" MaximumBacktrack="2132973057">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,3 P" UseBacktrack="true" SliderMessage="2265089" MinimumBacktrack="2267393" MaximumBacktrack="2132973825">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,3 S" UseBacktrack="true" SliderMessage="2265089" MinimumBacktrack="2268417" MaximumBacktrack="2132974849">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133037057" EnabledBacktrack="0" DisableMessage="2326529" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,3 F" UseBacktrack="true" SliderMessage="2330625" MinimumBacktrack="2332161" MaximumBacktrack="2133038593">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,3 P" UseBacktrack="true" SliderMessage="2330625" MinimumBacktrack="2332929" MaximumBacktrack="2133039361">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,3 S" UseBacktrack="true" SliderMessage="2330625" MinimumBacktrack="2333953" MaximumBacktrack="2133040385">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133102593" EnabledBacktrack="0" DisableMessage="2392065" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,3 F" UseBacktrack="true" SliderMessage="2396161" MinimumBacktrack="2397697" MaximumBacktrack="2133104129">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,3 P" UseBacktrack="true" SliderMessage="2396161" MinimumBacktrack="2398465" MaximumBacktrack="2133104897">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,3 S" UseBacktrack="true" SliderMessage="2396161" MinimumBacktrack="2399489" MaximumBacktrack="2133105921">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133168129" EnabledBacktrack="2133168129" DisableMessage="2457601" DisabledBacktrack="2457601">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,3 F" UseBacktrack="true" SliderMessage="2461697" MinimumBacktrack="2463233" MaximumBacktrack="2133169665">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,3 P" UseBacktrack="true" SliderMessage="2461697" MinimumBacktrack="2464001" MaximumBacktrack="2133170433">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,3 S" UseBacktrack="true" SliderMessage="2461697" MinimumBacktrack="2465025" MaximumBacktrack="2133171457">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133233665" EnabledBacktrack="0" DisableMessage="2523137" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,3 F" UseBacktrack="true" SliderMessage="2527233" MinimumBacktrack="2528769" MaximumBacktrack="2133235201">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,3 P" UseBacktrack="true" SliderMessage="2527233" MinimumBacktrack="2529537" MaximumBacktrack="2133235969">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,3 S" UseBacktrack="true" SliderMessage="2527233" MinimumBacktrack="2530561" MaximumBacktrack="2133236993">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,3 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2133299201" EnabledBacktrack="0" DisableMessage="2588673" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,3 F" UseBacktrack="true" SliderMessage="2592769" MinimumBacktrack="2594305" MaximumBacktrack="2133300737">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,3 P" UseBacktrack="true" SliderMessage="2592769" MinimumBacktrack="2595073" MaximumBacktrack="2133301505">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,3 S" UseBacktrack="true" SliderMessage="2592769" MinimumBacktrack="2596097" MaximumBacktrack="2133302529">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132316161" EnabledBacktrack="0" DisableMessage="1605633" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,4 F" UseBacktrack="true" SliderMessage="1609729" MinimumBacktrack="1611265" MaximumBacktrack="2132317697">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,4 P" UseBacktrack="true" SliderMessage="1609729" MinimumBacktrack="1612033" MaximumBacktrack="2132318465">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,4 S" UseBacktrack="true" SliderMessage="1609729" MinimumBacktrack="1613057" MaximumBacktrack="2132319489">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132381697" EnabledBacktrack="0" DisableMessage="1671169" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,4 F" UseBacktrack="true" SliderMessage="1675265" MinimumBacktrack="1676801" MaximumBacktrack="2132383233">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,4 P" UseBacktrack="true" SliderMessage="1675265" MinimumBacktrack="1677569" MaximumBacktrack="2132384001">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,4 S" UseBacktrack="true" SliderMessage="1675265" MinimumBacktrack="1678593" MaximumBacktrack="2132385025">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132447233" EnabledBacktrack="0" DisableMessage="1736705" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,4 F" UseBacktrack="true" SliderMessage="1740801" MinimumBacktrack="1742337" MaximumBacktrack="2132448769">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,4 P" UseBacktrack="true" SliderMessage="1740801" MinimumBacktrack="1743105" MaximumBacktrack="2132449537">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,4 S" UseBacktrack="true" SliderMessage="1740801" MinimumBacktrack="1744129" MaximumBacktrack="2132450561">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132512769" EnabledBacktrack="0" DisableMessage="1802241" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,4 F" UseBacktrack="true" SliderMessage="1806337" MinimumBacktrack="1807873" MaximumBacktrack="2132514305">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,4 P" UseBacktrack="true" SliderMessage="1806337" MinimumBacktrack="1808641" MaximumBacktrack="2132515073">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,4 S" UseBacktrack="true" SliderMessage="1806337" MinimumBacktrack="1809665" MaximumBacktrack="2132516097">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132578305" EnabledBacktrack="0" DisableMessage="1867777" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,4 F" UseBacktrack="true" SliderMessage="1871873" MinimumBacktrack="1873409" MaximumBacktrack="2132579841">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,4 P" UseBacktrack="true" SliderMessage="1871873" MinimumBacktrack="1874177" MaximumBacktrack="2132580609">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,4 S" UseBacktrack="true" SliderMessage="1871873" MinimumBacktrack="1875201" MaximumBacktrack="2132581633">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132643841" EnabledBacktrack="0" DisableMessage="1933313" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,4 F" UseBacktrack="true" SliderMessage="1937409" MinimumBacktrack="1938945" MaximumBacktrack="2132645377">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,4 P" UseBacktrack="true" SliderMessage="1937409" MinimumBacktrack="1939713" MaximumBacktrack="2132646145">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,4 S" UseBacktrack="true" SliderMessage="1937409" MinimumBacktrack="1940737" MaximumBacktrack="2132647169">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132709377" EnabledBacktrack="0" DisableMessage="1998849" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,4 F" UseBacktrack="true" SliderMessage="2002945" MinimumBacktrack="2004481" MaximumBacktrack="2132710913">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,4 P" UseBacktrack="true" SliderMessage="2002945" MinimumBacktrack="2005249" MaximumBacktrack="2132711681">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,4 S" UseBacktrack="true" SliderMessage="2002945" MinimumBacktrack="2006273" MaximumBacktrack="2132712705">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,4 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132774913" EnabledBacktrack="0" DisableMessage="2064385" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,4 F" UseBacktrack="true" SliderMessage="2068481" MinimumBacktrack="2070017" MaximumBacktrack="2132776449">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,4 P" UseBacktrack="true" SliderMessage="2068481" MinimumBacktrack="2070785" MaximumBacktrack="2132777217">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,4 S" UseBacktrack="true" SliderMessage="2068481" MinimumBacktrack="2071809" MaximumBacktrack="2132778241">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131791873" EnabledBacktrack="0" DisableMessage="1081345" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,5 F" UseBacktrack="true" SliderMessage="1085441" MinimumBacktrack="1086977" MaximumBacktrack="2131793409">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,5 P" UseBacktrack="true" SliderMessage="1085441" MinimumBacktrack="1087745" MaximumBacktrack="2131794177">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,5 S" UseBacktrack="true" SliderMessage="1085441" MinimumBacktrack="1088769" MaximumBacktrack="2131795201">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131857409" EnabledBacktrack="0" DisableMessage="1146881" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,5 F" UseBacktrack="true" SliderMessage="1150977" MinimumBacktrack="1152513" MaximumBacktrack="2131858945">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,5 P" UseBacktrack="true" SliderMessage="1150977" MinimumBacktrack="1153281" MaximumBacktrack="2131859713">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,5 S" UseBacktrack="true" SliderMessage="1150977" MinimumBacktrack="1154305" MaximumBacktrack="2131860737">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131922945" EnabledBacktrack="0" DisableMessage="1212417" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,5 F" UseBacktrack="true" SliderMessage="1216513" MinimumBacktrack="1218049" MaximumBacktrack="2131924481">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,5 P" UseBacktrack="true" SliderMessage="1216513" MinimumBacktrack="1218817" MaximumBacktrack="2131925249">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,5 S" UseBacktrack="true" SliderMessage="1216513" MinimumBacktrack="1219841" MaximumBacktrack="2131926273">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131988481" EnabledBacktrack="0" DisableMessage="1277953" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,5 F" UseBacktrack="true" SliderMessage="1282049" MinimumBacktrack="1283585" MaximumBacktrack="2131990017">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,5 P" UseBacktrack="true" SliderMessage="1282049" MinimumBacktrack="1284353" MaximumBacktrack="2131990785">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,5 S" UseBacktrack="true" SliderMessage="1282049" MinimumBacktrack="1285377" MaximumBacktrack="2131991809">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132054017" EnabledBacktrack="0" DisableMessage="1343489" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,5 F" UseBacktrack="true" SliderMessage="1347585" MinimumBacktrack="1349121" MaximumBacktrack="2132055553">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,5 P" UseBacktrack="true" SliderMessage="1347585" MinimumBacktrack="1349889" MaximumBacktrack="2132056321">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,5 S" UseBacktrack="true" SliderMessage="1347585" MinimumBacktrack="1350913" MaximumBacktrack="2132057345">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132119553" EnabledBacktrack="0" DisableMessage="1409025" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,5 F" UseBacktrack="true" SliderMessage="1413121" MinimumBacktrack="1414657" MaximumBacktrack="2132121089">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,5 P" UseBacktrack="true" SliderMessage="1413121" MinimumBacktrack="1415425" MaximumBacktrack="2132121857">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,5 S" UseBacktrack="true" SliderMessage="1413121" MinimumBacktrack="1416449" MaximumBacktrack="2132122881">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132185089" EnabledBacktrack="0" DisableMessage="1474561" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,5 F" UseBacktrack="true" SliderMessage="1478657" MinimumBacktrack="1480193" MaximumBacktrack="2132186625">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,5 P" UseBacktrack="true" SliderMessage="1478657" MinimumBacktrack="1480961" MaximumBacktrack="2132187393">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,5 S" UseBacktrack="true" SliderMessage="1478657" MinimumBacktrack="1481985" MaximumBacktrack="2132188417">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,5 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2132250625" EnabledBacktrack="0" DisableMessage="1540097" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,5 F" UseBacktrack="true" SliderMessage="1544193" MinimumBacktrack="1545729" MaximumBacktrack="2132252161">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,5 P" UseBacktrack="true" SliderMessage="1544193" MinimumBacktrack="1546497" MaximumBacktrack="2132252929">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,5 S" UseBacktrack="true" SliderMessage="1544193" MinimumBacktrack="1547521" MaximumBacktrack="2132253953">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131267585" EnabledBacktrack="0" DisableMessage="557057" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,6 F" UseBacktrack="true" SliderMessage="561153" MinimumBacktrack="562689" MaximumBacktrack="2131269121">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,6 P" UseBacktrack="true" SliderMessage="561153" MinimumBacktrack="563457" MaximumBacktrack="2131269889">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,6 S" UseBacktrack="true" SliderMessage="561153" MinimumBacktrack="564481" MaximumBacktrack="2131270913">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131333121" EnabledBacktrack="0" DisableMessage="622593" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,6 F" UseBacktrack="true" SliderMessage="626689" MinimumBacktrack="628225" MaximumBacktrack="2131334657">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,6 P" UseBacktrack="true" SliderMessage="626689" MinimumBacktrack="628993" MaximumBacktrack="2131335425">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,6 S" UseBacktrack="true" SliderMessage="626689" MinimumBacktrack="630017" MaximumBacktrack="2131336449">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131398657" EnabledBacktrack="0" DisableMessage="688129" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,6 F" UseBacktrack="true" SliderMessage="692225" MinimumBacktrack="693761" MaximumBacktrack="2131400193">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,6 P" UseBacktrack="true" SliderMessage="692225" MinimumBacktrack="694529" MaximumBacktrack="2131400961">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,6 S" UseBacktrack="true" SliderMessage="692225" MinimumBacktrack="695553" MaximumBacktrack="2131401985">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131464193" EnabledBacktrack="0" DisableMessage="753665" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,6 F" UseBacktrack="true" SliderMessage="757761" MinimumBacktrack="759297" MaximumBacktrack="2131465729">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,6 P" UseBacktrack="true" SliderMessage="757761" MinimumBacktrack="760065" MaximumBacktrack="2131466497">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,6 S" UseBacktrack="true" SliderMessage="757761" MinimumBacktrack="761089" MaximumBacktrack="2131467521">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131529729" EnabledBacktrack="0" DisableMessage="819201" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,6 F" UseBacktrack="true" SliderMessage="823297" MinimumBacktrack="824833" MaximumBacktrack="2131531265">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,6 P" UseBacktrack="true" SliderMessage="823297" MinimumBacktrack="825601" MaximumBacktrack="2131532033">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,6 S" UseBacktrack="true" SliderMessage="823297" MinimumBacktrack="826625" MaximumBacktrack="2131533057">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131595265" EnabledBacktrack="0" DisableMessage="884737" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,6 F" UseBacktrack="true" SliderMessage="888833" MinimumBacktrack="890369" MaximumBacktrack="2131596801">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,6 P" UseBacktrack="true" SliderMessage="888833" MinimumBacktrack="891137" MaximumBacktrack="2131597569">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,6 S" UseBacktrack="true" SliderMessage="888833" MinimumBacktrack="892161" MaximumBacktrack="2131598593">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131660801" EnabledBacktrack="0" DisableMessage="950273" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,6 F" UseBacktrack="true" SliderMessage="954369" MinimumBacktrack="955905" MaximumBacktrack="2131662337">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,6 P" UseBacktrack="true" SliderMessage="954369" MinimumBacktrack="956673" MaximumBacktrack="2131663105">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,6 S" UseBacktrack="true" SliderMessage="954369" MinimumBacktrack="957697" MaximumBacktrack="2131664129">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,6 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131726337" EnabledBacktrack="0" DisableMessage="1015809" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,6 F" UseBacktrack="true" SliderMessage="1019905" MinimumBacktrack="1021441" MaximumBacktrack="2131727873">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,6 P" UseBacktrack="true" SliderMessage="1019905" MinimumBacktrack="1022209" MaximumBacktrack="2131728641">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,6 S" UseBacktrack="true" SliderMessage="1019905" MinimumBacktrack="1023233" MaximumBacktrack="2131729665">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2130743297" EnabledBacktrack="0" DisableMessage="32769" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="0,7 F" UseBacktrack="true" SliderMessage="36865" MinimumBacktrack="38401" MaximumBacktrack="2130744833">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,7 P" UseBacktrack="true" SliderMessage="36865" MinimumBacktrack="39169" MaximumBacktrack="2130745601">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="0,7 S" UseBacktrack="true" SliderMessage="36865" MinimumBacktrack="40193" MaximumBacktrack="2130746625">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2130808833" EnabledBacktrack="0" DisableMessage="98305" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="1,7 F" UseBacktrack="true" SliderMessage="102401" MinimumBacktrack="103937" MaximumBacktrack="2130810369">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,7 P" UseBacktrack="true" SliderMessage="102401" MinimumBacktrack="104705" MaximumBacktrack="2130811137">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="1,7 S" UseBacktrack="true" SliderMessage="102401" MinimumBacktrack="105729" MaximumBacktrack="2130812161">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2130874369" EnabledBacktrack="0" DisableMessage="163841" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="2,7 F" UseBacktrack="true" SliderMessage="167937" MinimumBacktrack="169473" MaximumBacktrack="2130875905">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,7 P" UseBacktrack="true" SliderMessage="167937" MinimumBacktrack="170241" MaximumBacktrack="2130876673">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="2,7 S" UseBacktrack="true" SliderMessage="167937" MinimumBacktrack="171265" MaximumBacktrack="2130877697">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2130939905" EnabledBacktrack="0" DisableMessage="229377" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="3,7 F" UseBacktrack="true" SliderMessage="233473" MinimumBacktrack="235009" MaximumBacktrack="2130941441">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,7 P" UseBacktrack="true" SliderMessage="233473" MinimumBacktrack="235777" MaximumBacktrack="2130942209">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="3,7 S" UseBacktrack="true" SliderMessage="233473" MinimumBacktrack="236801" MaximumBacktrack="2130943233">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131005441" EnabledBacktrack="0" DisableMessage="294913" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="4,7 F" UseBacktrack="true" SliderMessage="299009" MinimumBacktrack="300545" MaximumBacktrack="2131006977">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,7 P" UseBacktrack="true" SliderMessage="299009" MinimumBacktrack="301313" MaximumBacktrack="2131007745">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="4,7 S" UseBacktrack="true" SliderMessage="299009" MinimumBacktrack="302337" MaximumBacktrack="2131008769">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131070977" EnabledBacktrack="0" DisableMessage="360449" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="5,7 F" UseBacktrack="true" SliderMessage="364545" MinimumBacktrack="366081" MaximumBacktrack="2131072513">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,7 P" UseBacktrack="true" SliderMessage="364545" MinimumBacktrack="366849" MaximumBacktrack="2131073281">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="5,7 S" UseBacktrack="true" SliderMessage="364545" MinimumBacktrack="367873" MaximumBacktrack="2131074305">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131136513" EnabledBacktrack="0" DisableMessage="425985" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="6,7 F" UseBacktrack="true" SliderMessage="430081" MinimumBacktrack="431617" MaximumBacktrack="2131138049">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,7 P" UseBacktrack="true" SliderMessage="430081" MinimumBacktrack="432385" MaximumBacktrack="2131138817">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="6,7 S" UseBacktrack="true" SliderMessage="430081" MinimumBacktrack="433409" MaximumBacktrack="2131139841">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,7 B" UseBacktrack="false" Threshold="126" IsToggle="false" EnableMessage="2131202049" EnabledBacktrack="0" DisableMessage="491521" DisabledBacktrack="0">
+      <Type>Lumos.GUI.MIDI.ButtonRule</Type>
+    </Rule>
+    <Rule Name="7,7 F" UseBacktrack="true" SliderMessage="495617" MinimumBacktrack="497153" MaximumBacktrack="2131203585">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,7 P" UseBacktrack="true" SliderMessage="495617" MinimumBacktrack="497921" MaximumBacktrack="2131204353">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+    <Rule Name="7,7 S" UseBacktrack="true" SliderMessage="495617" MinimumBacktrack="498945" MaximumBacktrack="2131205377">
+      <Type>Lumos.GUI.MIDI.SliderRule</Type>
+    </Rule>
+  </RuleSet>
+</MidiSettings>
