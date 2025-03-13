@@ -29,6 +29,10 @@
     <raw dmxchannel="7" name="Strobe Man">
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
     </raw>
+	<strobe dmxchannel="7">
+		<step type="open" mindmx="0" maxdmx="1" />
+		<range type="linear" mindmx="1" maxdmx="255" minval="1" maxval="20" />
+	</strobe>
   </functions>
   <procedures />
 </device>
