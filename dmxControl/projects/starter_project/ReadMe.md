@@ -4,6 +4,9 @@
 
 This project and documentation are a work in progress. That’s why there is currently no project starter in this repository. I will add it when I have something ready.
 
+I build this Starte Projet for my AKAI APC mini midi Controler. When Using another 
+changes in the Input Assignment will be nessary
+
 ## General
 
 The starter project is used when creating a new project. The purpose of this project is to reduce redundant configuration and programming of repetitive functions.
@@ -28,9 +31,19 @@ If you want to save a cue from inside the cuelist for later use, copy it and pas
 
 The project has **8 Color Selection Groups** (Reason: I use an [AKAI APC Mini MIDI Controller WIP](https://github.com/FlorianGericke/DMXControl-files/tree/main/dmxControl/midi_rule_sets/apc_mini_mk_2). This MIDI controller has 8 soft buttons in one row).
 
-You can assign as many fixtures as you like to one Color Selection Group. The purpose of a group is to select one group and then apply a color to each fixture within that group. [More WIP](#Color-Selection-Groups-1)
+You can assign as many fixtures as you like to one Color Selection Group. The purpose of a group is to select one group and then apply a color to each fixture within that group. [More WIP](#\[Color-Selection-Group\]-Handle-Color-Change-Page)
 
 ## Executors
+
+### Transition Executers
+
+Transition Executers have a higer Priority then Highlight Executers. These are for Build Up or situations you want to overlay somthing over you current Output. 
+When a Transition Executer is aktive you can prepare the paramters for thr dropm, maybe using a highlight executer. When then thr Transition executer is stopped the Highlight effect will be visible.
+
+### Highlight Executors
+
+Highlight Executers have a lower Priority then the Transition Executers.
+Place drops or other special Highlight here. When a transition is canceld ther active Highlight will fire up !
 
 ## Masters
 
@@ -38,9 +51,51 @@ You can assign as many fixtures as you like to one Color Selection Group. The pu
 
 ## Input Assignment
 
-### Color Selection Groups
+### [Color Selection Group]  - Handle Color Change Page
 
-## DMX Input
+#### Color Selection Groups
+![overview](.\img\ia-color-selection-group-overview.png)
+
+#### Device Buttons select Color Selection Groups
+![select-color-selection-groups](.\img\ia-color-selection-group-2-device-selection-buttons.png)
+
+#### Device Buttons select Color for the selected Group
+![select-color](.\img\ia-color-selection-group-3-color-selection-buttons.png)
+
+#### Set Up Predefined Colors 
+![predefined colors ](.\img/ia-color-selection-group-4-predefined-colors.png)
+
+
+
+
+## DMX Inputn
+
+### Transition Executer Faders
+
+| Channel | Fader                       |
+| ------- | --------------------------- |
+| 2.101   | Transition Executer Fader 1 |
+| 2.102   | Transition Executer Fader 2 |
+| 2.103   | Transition Executer Fader 3 |
+| 2.104   | Transition Executer Fader 4 |
+| 2.105   | Transition Executer Fader 5 |
+| 2.106   | Transition Executer Fader 6 |
+| 2.107   | Transition Executer Fader 7 |
+| 2.108   | Transition Executer Fader 8 |
+
+
+### Highlight Executer Faders
+
+| Channel  | Fader                       |
+| -------  | --------------------------- |
+| 2.111    | Highlight Executer Fader 1  |
+| 2.112    | Highlight Executer Fader 2  |
+| 2.113    | Highlight Executer Fader 3  |
+| 2.114    | Highlight Executer Fader 4  |
+| 2.115    | Highlight Executer Fader 5  |
+| 2.116    | Highlight Executer Fader 6  |
+| 2.117    | Highlight Executer Fader 7  |
+| 2.118    | Highlight Executer Fader 8  |
 
 ### General
 
