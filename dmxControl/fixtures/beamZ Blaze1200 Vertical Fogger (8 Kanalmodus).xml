@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device image="Blaze1200.jpg" type="DMXDevice" dmxaddresscount="8" dmxcversion="3.1.0" ddfversion="1.0">
+  <information>
+    <model>Blaze 1200 Vertical Fogger</model>
+    <vendor>beamZ</vendor>
+    <author>Florian Gericke</author>
+    <mode>8 Kanalmodus</mode>
+  </information>
+  <functions>
+	<fog dmxchannel="0" />
+    <dimmer dmxchannel="1">
+		<range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </dimmer>
+    <rgb>
+		<red dmxchannel="2" />
+		<green dmxchannel="3" />
+		<blue dmxchannel="4" />
+		<amber dmxchannel="5" />
+	</rgb>
+	<raw dmxchannel="6" name="Strobe Man">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+	<strobe dmxchannel="6">
+		<range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="20"/>
+	</strobe>
+    <raw dmxchannel="7" name="Macro">
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+    </raw>
+  </functions>
+  <procedures />
+</device>
