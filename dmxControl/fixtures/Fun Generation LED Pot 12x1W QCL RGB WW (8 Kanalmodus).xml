@@ -17,7 +17,7 @@
       <blue dmxchannel="3" />
     </rgb>
     <raw dmxchannel="4" name="Warm White">
-      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
+      <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="1" />
     </raw>
 	<rawstep dmxchannel="5" name="Mode">
       <step caption="Manual" mindmx="0" maxdmx="0" />

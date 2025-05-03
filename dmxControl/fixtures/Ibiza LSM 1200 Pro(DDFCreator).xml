@@ -7,7 +7,7 @@
   </information>
   <functions>
     <fog dmxchannel="0">
-      <range val="true" mindmx="0" maxdmx="255" />
+      <range val="true" mindmx="0" maxdmx="255" minval="1" maxval="100" />
     </fog>
   </functions>
   <procedures />

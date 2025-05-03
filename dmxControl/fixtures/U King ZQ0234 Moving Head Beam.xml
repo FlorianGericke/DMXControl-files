@@ -55,35 +55,35 @@
       <step type="open" mindmx="0" maxdmx="7" caption="open" />
       <step type="gobo" mindmx="10" maxdmx="19"  caption="open-narrow">
 		<step handler="goboshake" type="stop" mindmx="10" maxdmx="19" />
-        <range handler="goboshake" mindmx="140" maxdmx="149" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="140" maxdmx="149" minval="1" maxval="100" />
       </step>
       <step type="gobo" mindmx="20" maxdmx="29"  caption="squares">
 	  <step handler="goboshake" type="stop" mindmx="20" maxdmx="29" />
-        <range handler="goboshake" mindmx="130" maxdmx="139" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="130" maxdmx="139" minval="1" maxval="100" />
       </step>
       <step type="gobo" mindmx="30" maxdmx="39"  caption="star">
 	  <step handler="goboshake" type="stop" mindmx="30" maxdmx="39" />
-        <range handler="goboshake" mindmx="120" maxdmx="129" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="120" maxdmx="129" minval="1" maxval="100" />
       </step>
       <step type="gobo" mindmx="40" maxdmx="49"  caption="flower narrow">
 	  <step handler="goboshake" type="stop" mindmx="40" maxdmx="49" />
-        <range handler="goboshake" mindmx="110" maxdmx="119" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="110" maxdmx="119" minval="1" maxval="100" />
       </step>
       <step type="gobo" mindmx="50" maxdmx="59"  caption="cros">
 	  <step handler="goboshake" type="stop" mindmx="50" maxdmx="59" />
-        <range handler="goboshake" mindmx="100" maxdmx="109" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="100" maxdmx="109" minval="1" maxval="100" />
       </step>
       <step type="gobo" mindmx="60" maxdmx="69" caption="circle 3 divides">
 	  <step handler="goboshake" type="stop" mindmx="60" maxdmx="69" />
-        <range handler="goboshake" mindmx="90" maxdmx="99" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="90" maxdmx="99" minval="1" maxval="100" />
       </step>
       <step type="gobo" mindmx="70" maxdmx="79" caption="flower wide">
 	  <step handler="goboshake" type="stop" mindmx="70" maxdmx="79" />
-        <range handler="goboshake" mindmx="80" maxdmx="89" minval="0.1" maxval="1" />
+        <range handler="goboshake" mindmx="80" maxdmx="89" minval="1" maxval="100" />
       </step>
       <wheelrotation>
-        <range type="cw" mindmx="160" maxdmx="207" minval="0.1" maxval="1" />
-		<range type="ccw" mindmx="208" maxdmx="255" minval="0.1" maxval="1" />
+        <range type="cw" mindmx="160" maxdmx="207" minval="1" maxval="100" />
+		<range type="ccw" mindmx="208" maxdmx="255" minval="1" maxval="100" />
       </wheelrotation>
     </gobowheel>
     <prism dmxchannel="9">
@@ -91,7 +91,7 @@
       	<step type="prism" mindmx="9" maxdmx="255" caption="On"/>
         <prismrotation>
            <step type="stop" mindmx="9" maxdmx="127" />
-           <range type="cw"  mindmx="128" maxdmx="255" minval="0.1" maxval="1" />
+           <range type="cw"  mindmx="128" maxdmx="255" minval="1" maxval="100" />
         </prismrotation>
     </prism>
     <rawstep dmxchannel="10" name="Auto Mode">
