@@ -387,26 +387,26 @@ Fader Value 1 => Scene On
 Fader Value 0 => Scene off
 Fader Value 1 => Scene On
 
-| Channel | Fader                |
-| ------- | -------------------- |
-| 2.151   | Scene 1 FR Blackout  |
-| 2.152   | Scene 2 BA Blackout  |
-| 2.153   | Scene 3 MOV Blackout |
-| 2.154   | Scene 4 Mov Prism On |
-| 2.155   | Scene 5              |
-| 2.156   | Scene 6              |
-| 2.157   | Scene 7              |
-| 2.158   | Scene 8              |
-| 2.159   | AUX 1                |
-| 2.161   | Scene 9              |
-| 2.162   | Scene 10             |
-| 2.163   | Scene 11             |
-| 2.164   | Scene 12             |
-| 2.165   | Scene 13             |
-| 2.166   | Scene 14             |
-| 2.167   | Scene 15             |
-| 2.168   | Scene 16             |
-| 2.169   | AUX 2                |
+| Channel | Fader                 |
+| ------- | --------------------- |
+| 2.151   | Scene 1 FR Blackout   |
+| 2.152   | Scene 2 BA Blackout   |
+| 2.153   | Scene 3 MOV Blackout  |
+| 2.154   | Scene 4               |
+| 2.155   | Scene 5               |
+| 2.156   | Scene 6               |
+| 2.157   | Scene 7               |
+| 2.158   | Scene 8  Mov Prism On |
+| 2.159   | AUX 1                 |
+| 2.161   | Scene 9               |
+| 2.162   | Scene 10              |
+| 2.163   | Scene 11              |
+| 2.164   | Scene 12              |
+| 2.165   | Scene 13              |
+| 2.166   | Scene 14              |
+| 2.167   | Scene 15              |
+| 2.168   | Scene 16              |
+| 2.169   | AUX 2                 |
 
 
 

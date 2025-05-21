@@ -21,7 +21,7 @@
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
     </raw>
 	<strobe dmxchannel="6">
-		<range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="20"/>
+		<range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="10"/>
 	</strobe>
     <raw dmxchannel="7" name="Macro">
       <range type="linear" mindmx="0" maxdmx="255" minval="0" maxval="100" />
